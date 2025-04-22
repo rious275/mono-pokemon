@@ -1,0 +1,24 @@
+# Node
+node_modules/
+dist/
+.build/
+.temp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
+
+# Optional (pnpm stuff)
+.pnpm-debug.log*

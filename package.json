@@ -1,0 +1,14 @@
+{
+  "name": "mono-pokemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "pnpm -r --filter \"workspace:*\" run build",
+    "dev:packages": "pnpm -r --filter \"workspace:*\" run build --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.9.0"
+}
